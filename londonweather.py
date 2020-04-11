@@ -9,12 +9,13 @@ the London weather
 '''
 class LondonWeather:
 
-    # Method to get the response code of the called API
+    # Method to get the response of the called API
     def get_API_response(self, URL):
         #     URL = "https://samples.openweathermap.org/data/2.5/forecast/hourly?q=London,us&appid=b6907d289e10d714a6e88b30761fae22"
         df = requests.get(url=URL).json()
         return json_normalize(df).iloc[0]
 
+    # Method to get the response code of the called API
     def check_status_code(self, data):
         return int(data['cod'])
 
