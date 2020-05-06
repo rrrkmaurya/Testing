@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Testing" class="navigator-link">
+              <span class="suite-name border-passed">Testing</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Testing" class="navigator-link ">
+                    <span>C:\Users\pushp\Downloads\automation-testing\automation-testing\WeInvest\testngtesting.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Testing" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Testing" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Testing" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Testing" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Testing" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Testing" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Testing" class="hide-methods passed suite-Testing"> (hide)</a> <!-- hide-methods passed suite-Testing -->
+                      <a href="#" panel-name="suite-Testing" class="show-methods passed suite-Testing"> (show)</a> <!-- show-methods passed suite-Testing -->
+                    </span>
+                    <div class="method-list-content passed suite-Testing">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing" title="com.WEINVEST.TestC_Test" class="method navigator-link" hash-for-method="changeWindowSize">changeWindowSize</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing" title="com.WEINVEST.TestC_Test" class="method navigator-link" hash-for-method="verifyPageTittle(https://sfo-demo.herokuapp.com/model-portfolio)">verifyPageTittle(https://sfo-demo.herokuapp.com/model-portfolio)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing" title="com.WEINVEST.TestC_Test" class="method navigator-link" hash-for-method="visibilityOfFullOtherPortfolio">visibilityOfFullOtherPortfolio</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing" title="com.WEINVEST.TestC_Test" class="method navigator-link" hash-for-method="visibilityOfFullRecommendation">visibilityOfFullRecommendation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing" title="com.WEINVEST.TestC_Test" class="method navigator-link" hash-for-method="visibilityOfSortOtherPortfolio">visibilityOfSortOtherPortfolio</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Testing" title="com.WEINVEST.TestC_Test" class="method navigator-link" hash-for-method="visibilityOfSortRecommendation">visibilityOfSortRecommendation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Testing -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Testing" class="panel Testing">
+          <div class="suite-Testing-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.WEINVEST.TestC_Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="changeWindowSize">
+                  </a> <!-- changeWindowSize -->
+                  <span class="method-name">changeWindowSize</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageTittle(https://sfo-demo.herokuapp.com/model-portfolio)">
+                  </a> <!-- verifyPageTittle(https://sfo-demo.herokuapp.com/model-portfolio) -->
+                  <span class="method-name">verifyPageTittle</span>
+                  <span class="parameters">(https://sfo-demo.herokuapp.com/model-portfolio)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="visibilityOfFullOtherPortfolio">
+                  </a> <!-- visibilityOfFullOtherPortfolio -->
+                  <span class="method-name">visibilityOfFullOtherPortfolio</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="visibilityOfFullRecommendation">
+                  </a> <!-- visibilityOfFullRecommendation -->
+                  <span class="method-name">visibilityOfFullRecommendation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="visibilityOfSortOtherPortfolio">
+                  </a> <!-- visibilityOfSortOtherPortfolio -->
+                  <span class="method-name">visibilityOfSortOtherPortfolio</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="visibilityOfSortRecommendation">
+                  </a> <!-- visibilityOfSortRecommendation -->
+                  <span class="method-name">visibilityOfSortRecommendation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing-class-passed -->
+        </div> <!-- panel Testing -->
+        <div panel-name="test-xml-Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\pushp\Downloads\automation-testing\automation-testing\WeInvest\testngtesting.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Testing&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;problem&quot; value=&quot;Test_C&quot;/&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://sfo-demo.herokuapp.com/model-portfolio&quot;/&gt;
+  &lt;parameter name=&quot;browserType&quot; value=&quot;chrome&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.utilities.ScreenshotListeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Automation_Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.WEINVEST.TestC_Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Automation_Test --&gt;
+&lt;/suite&gt; &lt;!-- Testing --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Automation_Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Testing');
+function tableData_Testing() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyPageTittle')
+data.setCell(0, 2, 'com.WEINVEST.TestC_Test')
+data.setCell(0, 3, 2193);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'visibilityOfFullRecommendation')
+data.setCell(1, 2, 'com.WEINVEST.TestC_Test')
+data.setCell(1, 3, 851);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'changeWindowSize')
+data.setCell(2, 2, 'com.WEINVEST.TestC_Test')
+data.setCell(2, 3, 291);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'visibilityOfSortOtherPortfolio')
+data.setCell(3, 2, 'com.WEINVEST.TestC_Test')
+data.setCell(3, 3, 105);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'visibilityOfFullOtherPortfolio')
+data.setCell(4, 2, 'com.WEINVEST.TestC_Test')
+data.setCell(4, 3, 102);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'visibilityOfSortRecommendation')
+data.setCell(5, 2, 'com.WEINVEST.TestC_Test')
+data.setCell(5, 3, 99);
+window.suiteTableData['Testing']= { tableData: data, tableDiv: 'times-div-Testing'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <div id="times-div-Testing">
+              </div> <!-- times-div-Testing -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Testing</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Testing" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.WEINVEST.TestC_Test</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initializeTestBaseSetup(chrome, https://sfo-demo.herokuapp.com/model-portfolio, Test_C)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">23441 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageTittle(https://sfo-demo.herokuapp.com/model-portfolio)</span>
+                <span class="method-start">23640 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyPageTittle status=SUCCESS method=TestC_Test.verifyPageTittle(java.lang.String...)</span>
+                <span class="method-start">25834 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">visibilityOfFullRecommendation</span>
+                <span class="method-start">26028 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=visibilityOfFullRecommendation status=SUCCESS method=TestC_Test.visibilityOfFullRec...)</span>
+                <span class="method-start">26880 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">visibilityOfFullOtherPortfolio</span>
+                <span class="method-start">26881 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=visibilityOfFullOtherPortfolio status=SUCCESS method=TestC_Test.visibilityOfFullOth...)</span>
+                <span class="method-start">26983 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">changeWindowSize</span>
+                <span class="method-start">26985 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=changeWindowSize status=SUCCESS method=TestC_Test.changeWindowSize()[pri:9, instanc...)</span>
+                <span class="method-start">27276 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">visibilityOfSortRecommendation</span>
+                <span class="method-start">27278 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=visibilityOfSortRecommendation status=SUCCESS method=TestC_Test.visibilityOfSortRec...)</span>
+                <span class="method-start">27378 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">visibilityOfSortOtherPortfolio</span>
+                <span class="method-start">27379 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=visibilityOfSortOtherPortfolio status=SUCCESS method=TestC_Test.visibilityOfSortOth...)</span>
+                <span class="method-start">27484 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown(Test_C)</span>
+                <span class="method-start">27933 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

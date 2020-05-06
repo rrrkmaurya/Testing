@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Testing">
+
+    <parameter name="browserType" value="chrome"/>
+    <parameter name="url" value="https://sfo-demo.herokuapp.com/model-portfolio"/>
+    
+    <parameter name="problem" value="Test_C"/>
+    
+    <listeners>
+        <listener class-name="com.utilities.ScreenshotListeners"/>
+    </listeners>
+
+    <test name="Automation_Test">
+        <classes> 
+            <class name="com.WEINVEST.TestC_Test"/>
+
+
+          
+        </classes>
+    </test>
+</suite>

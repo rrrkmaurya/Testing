@@ -1,0 +1,88 @@
+2020-03-22 19:04:31 INFO  ScreenshotListeners:39 - 
+================:  verify Page Tittle :====================
+
+2020-03-22 19:04:34 INFO  TestB_Test:47 - Page title is verified
+2020-03-22 19:04:34 INFO  ScreenshotListeners:39 - 
+================:  visibility Of All Weather Strategy Section :====================
+
+2020-03-22 19:04:34 INFO  Common:31 - //ul[@class='portfolio-list']//img/following::div[ contains(text(),'All Weather Strategy')]
+2020-03-22 19:04:34 INFO  Common:33 - Element is loaded and visible in the page
+2020-03-22 19:04:34 INFO  TestB_Test:55 - visibilityOfAllWeatherStrategySection :passed
+2020-03-22 19:04:34 INFO  ScreenshotListeners:39 - 
+================:  clickon Explore Investment Ideas Link :====================
+
+2020-03-22 19:04:34 INFO  Common:31 - //ul[@class='portfolio-list']//img/following::div[ contains(text(),'All Weather Strategy')]/parent::div/parent::div//a[contains(text(),'Explore Investment Ideas')]
+2020-03-22 19:04:34 INFO  Common:33 - Element is loaded and visible in the page
+2020-03-22 19:04:44 INFO  Common:51 - Element is clicked successfully 
+2020-03-22 19:04:44 INFO  TestB_Test:68 - clickonExploreInvestmentIdeasLink : passed
+2020-03-22 19:04:44 INFO  ScreenshotListeners:39 - 
+================:  visibility Of All Weather Strategy Page :====================
+
+2020-03-22 19:04:44 INFO  Common:31 - //div[@class='model-portfolio-header']
+2020-03-22 19:04:44 INFO  Common:33 - Element is loaded and visible in the page
+2020-03-22 19:04:44 INFO  TestB_Test:81 - visibilityOfAllWeatherStrategyPage : Passed
+2020-03-22 19:04:44 INFO  ScreenshotListeners:39 - 
+================:  clickon Customize Portfolio :====================
+
+2020-03-22 19:04:44 INFO  Common:31 - //div[@class='model-portfolio-header']//a[contains(text(),'Customize')]
+2020-03-22 19:04:44 INFO  Common:33 - Element is loaded and visible in the page
+2020-03-22 19:04:55 INFO  Common:51 - Element is clicked successfully 
+2020-03-22 19:04:55 INFO  TestB_Test:94 - clickonCustomizePortfolio : passed
+2020-03-22 19:04:55 INFO  ScreenshotListeners:39 - 
+================:  visibility Of Portfolio Constituents Section :====================
+
+2020-03-22 19:04:55 INFO  Common:31 - //div[contains(@class,'portfolio-constituents-header')]
+2020-03-22 19:04:55 INFO  Common:33 - Element is loaded and visible in the page
+2020-03-22 19:04:55 INFO  TestB_Test:107 - visibilityOfPortfolioConstituentsSection : passed
+2020-03-22 19:04:55 INFO  ScreenshotListeners:39 - 
+================:  clickon Customize Button :====================
+
+2020-03-22 19:04:56 INFO  Common:31 - //div[contains(@class,'portfolio-constituents-header')]//a[contains(text(),'Customise')]
+2020-03-22 19:04:56 INFO  Common:33 - Element is loaded and visible in the page
+2020-03-22 19:04:56 INFO  Common:51 - Element is clicked successfully 
+2020-03-22 19:04:56 INFO  TestB_Test:120 - clickonCustomizeButton : passed
+2020-03-22 19:04:56 INFO  ScreenshotListeners:39 - 
+================:  verify Customize Changed To Reset :====================
+
+2020-03-22 19:04:57 INFO  Common:31 - //div[contains(@class,'portfolio-constituents-header')]//a[contains(text(),'Reset')]
+2020-03-22 19:04:57 INFO  Common:33 - Element is loaded and visible in the page
+2020-03-22 19:04:57 INFO  TestB_Test:133 - verifyCustomizeChangedToReset : passed
+2020-03-22 19:04:57 INFO  ScreenshotListeners:39 - 
+================:  clickon Add Stock Under U S Equities :====================
+
+2020-03-22 19:04:57 INFO  Common:31 - //div[contains(@class,'portfolio-constituents-header')]/following-sibling::div[contains(@class,'constituent-category-list')][1]//a[contains(text(),'Add Stock')]
+2020-03-22 19:04:57 INFO  Common:33 - Element is loaded and visible in the page
+2020-03-22 19:04:57 INFO  Common:51 - Element is clicked successfully 
+2020-03-22 19:04:57 INFO  TestB_Test:146 - clickonAddStockUnderUSEquities : passed
+2020-03-22 19:04:57 INFO  ScreenshotListeners:39 - 
+================:  visibility Of E T Fs Table :====================
+
+2020-03-22 19:04:58 INFO  Common:31 - //div[contains(@class,'portfolio-constituents-header')]/following-sibling::div[contains(@class,'constituent-category-list')][1]//a[contains(text(),'Add Stock')]/following-sibling::div[contains(@class,'modal fade in')]
+2020-03-22 19:04:58 INFO  Common:33 - Element is loaded and visible in the page
+2020-03-22 19:04:58 INFO  TestB_Test:159 - visibilityOfETFsTable : passed
+2020-03-22 19:04:58 INFO  ScreenshotListeners:39 - 
+================:  visibility Of B T Group Plc :====================
+
+2020-03-22 19:04:58 INFO  Common:31 - //div[contains(@class,'portfolio-constituents-header')]/following-sibling::div[contains(@class,'constituent-category-list')][1]//a[contains(text(),'Add Stock')]//following-sibling::div//a[contains(text(),'BT Group plc')]
+2020-03-22 19:04:58 INFO  Common:33 - Element is loaded and visible in the page
+2020-03-22 19:04:58 INFO  TestB_Test:172 - visibilityOfBTGroupPlc : passed
+2020-03-22 19:04:58 INFO  ScreenshotListeners:39 - 
+================:  clickon Add Stock Of B T Group Plc :====================
+
+2020-03-22 19:04:58 INFO  Common:31 - //div[contains(@class,'portfolio-constituents-header')]/following-sibling::div[contains(@class,'constituent-category-list')][1]//a[contains(text(),'Add Stock')]//following-sibling::div//a[contains(text(),'BT Group plc')]/parent::div/parent::div//button
+2020-03-22 19:04:58 INFO  Common:33 - Element is loaded and visible in the page
+2020-03-22 19:04:59 INFO  Common:51 - Element is clicked successfully 
+2020-03-22 19:04:59 INFO  TestB_Test:185 - clickonAddStockOfBTGroupPlc : passed
+2020-03-22 19:04:59 INFO  ScreenshotListeners:39 - 
+================:  clickon Done Button :====================
+
+2020-03-22 19:04:59 INFO  Common:31 - //div[contains(@class,'portfolio-constituents-header')]/following-sibling::div[contains(@class,'constituent-category-list')][1]//a[contains(text(),'Add Stock')]/following-sibling::div[contains(@class,'modal fade in')]//button[contains(text(),'Done')]
+2020-03-22 19:04:59 INFO  Common:33 - Element is loaded and visible in the page
+2020-03-22 19:04:59 INFO  Common:51 - Element is clicked successfully 
+2020-03-22 19:04:59 INFO  TestB_Test:198 - clickonDoneButton : passed
+2020-03-22 19:04:59 INFO  ScreenshotListeners:39 - 
+================:  verify B T Group Plc Added In Portfolio :====================
+
+2020-03-22 19:05:00 INFO  Common:31 - //div[contains(@class,'portfolio-constituents-header')]/following-sibling::div[contains(@class,'constituent-category-list')][1]//div[contains(@class,'row constituent-row vertical-align')]//a[contains(text(),'BT Group plc')]
+2020-03-22 19:05:00 INFO  Common:33 - Element is loaded and visible in the page
+2020-03-22 19:05:00 INFO  TestB_Test:211 - verifyBTGroupPlcAddedInPortfolio : passed

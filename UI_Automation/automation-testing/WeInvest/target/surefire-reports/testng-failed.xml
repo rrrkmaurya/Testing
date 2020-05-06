@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Testing]" verbose="0">
+  <parameter name="problem" value="Test_B"/>
+  <parameter name="url" value="https://sfo-demo.herokuapp.com/model-portfolio"/>
+  <parameter name="browserType" value="chrome"/>
+  <listeners>
+    <listener class-name="com.utilities.ScreenshotListeners"/>
+  </listeners>
+  <test thread-count="5" name="Automation_Test(failed)" verbose="0">
+    <classes>
+      <class name="com.WEINVEST.TestB_Test">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="visibilityOfAllWeatherStrategyPage"/>
+        </methods>
+      </class> <!-- com.WEINVEST.TestB_Test -->
+    </classes>
+  </test> <!-- Automation_Test(failed) -->
+</suite> <!-- Failed suite [Testing] -->

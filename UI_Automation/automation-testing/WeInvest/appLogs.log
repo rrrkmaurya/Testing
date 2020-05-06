@@ -1,0 +1,32 @@
+2020-03-22 19:06:03 INFO  ScreenshotListeners:39 - 
+================:  verify Page Tittle :====================
+
+2020-03-22 19:06:05 INFO  TestC_Test:47 - Page title is verified
+2020-03-22 19:06:05 INFO  ScreenshotListeners:39 - 
+================:  visibility Of Full Recommendation :====================
+
+2020-03-22 19:06:06 INFO  Common:31 - //ul[contains(@class,'model-portfolio-navs')]/li[1]/a[contains(text(),'3 Portfolio recommendations')]
+2020-03-22 19:06:06 INFO  Common:33 - Element is loaded and visible in the page
+2020-03-22 19:06:06 INFO  TestC_Test:55 - visibilityOfFullRecommendation : passed
+2020-03-22 19:06:06 INFO  ScreenshotListeners:39 - 
+================:  visibility Of Full Other Portfolio :====================
+
+2020-03-22 19:06:06 INFO  Common:31 - //ul[contains(@class,'model-portfolio-navs')]/li[2]/a[contains(text(),'15 other portfolio choices available')]
+2020-03-22 19:06:06 INFO  Common:33 - Element is loaded and visible in the page
+2020-03-22 19:06:06 INFO  TestC_Test:68 - visibilityOfFullOtherPortfolio : passed
+2020-03-22 19:06:06 INFO  ScreenshotListeners:39 - 
+================:  change Window Size :====================
+
+2020-03-22 19:06:06 INFO  TestC_Test:81 - changeWindowSize : passed
+2020-03-22 19:06:06 INFO  ScreenshotListeners:39 - 
+================:  visibility Of Sort Recommendation :====================
+
+2020-03-22 19:06:07 INFO  Common:31 - //ul[contains(@class,'model-portfolio-navs')]/li[1]/a[contains(text(),'Recommended (3)')]
+2020-03-22 19:06:07 INFO  Common:33 - Element is loaded and visible in the page
+2020-03-22 19:06:07 INFO  TestC_Test:94 - visibilityOfSortRecommendation : passed
+2020-03-22 19:06:07 INFO  ScreenshotListeners:39 - 
+================:  visibility Of Sort Other Portfolio :====================
+
+2020-03-22 19:06:07 INFO  Common:31 - //ul[contains(@class,'model-portfolio-navs')]/li[2]/a[contains(text(),'Others (15)')]
+2020-03-22 19:06:07 INFO  Common:33 - Element is loaded and visible in the page
+2020-03-22 19:06:07 INFO  TestC_Test:107 - visibilityOfSortOtherPortfolio : passed

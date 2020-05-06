@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-22T13:36:03Z" name="Testing" finished-at="2020-03-22T13:36:07Z" duration-ms="4077">
+    <groups>
+    </groups>
+    <test started-at="2020-03-22T13:36:03Z" name="Automation_Test" finished-at="2020-03-22T13:36:07Z" duration-ms="4077">
+      <class name="com.WEINVEST.TestC_Test">
+        <test-method is-config="true" signature="initializeTestBaseSetup(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.WEINVEST.TestC_Test@64d2d351]" started-at="2020-03-22T13:35:39Z" name="initializeTestBaseSetup" finished-at="2020-03-22T13:36:03Z" duration-ms="23408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://sfo-demo.herokuapp.com/model-portfolio]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test_C]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.WEINVEST.TestC_Test@64d2d351]" started-at="2020-03-22T13:36:03Z" name="setUp" finished-at="2020-03-22T13:36:03Z" duration-ms="180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPageTittle(java.lang.String)[pri:3, instance:com.WEINVEST.TestC_Test@64d2d351]" started-at="2020-03-22T13:36:03Z" name="verifyPageTittle" finished-at="2020-03-22T13:36:05Z" duration-ms="2193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://sfo-demo.herokuapp.com/model-portfolio]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTittle -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.WEINVEST.TestC_Test@64d2d351]" started-at="2020-03-22T13:36:05Z" name="getResult" finished-at="2020-03-22T13:36:05Z" duration-ms="137" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPageTittle status=SUCCESS method=TestC_Test.verifyPageTittle(java.lang.String)[pri:3, instance:com.WEINVEST.TestC_Test@64d2d351] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="visibilityOfFullRecommendation()[pri:5, instance:com.WEINVEST.TestC_Test@64d2d351]" started-at="2020-03-22T13:36:05Z" name="visibilityOfFullRecommendation" finished-at="2020-03-22T13:36:06Z" duration-ms="851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visibilityOfFullRecommendation -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.WEINVEST.TestC_Test@64d2d351]" started-at="2020-03-22T13:36:06Z" name="getResult" finished-at="2020-03-22T13:36:06Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=visibilityOfFullRecommendation status=SUCCESS method=TestC_Test.visibilityOfFullRecommendation()[pri:5, instance:com.WEINVEST.TestC_Test@64d2d351] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="visibilityOfFullOtherPortfolio()[pri:7, instance:com.WEINVEST.TestC_Test@64d2d351]" started-at="2020-03-22T13:36:06Z" name="visibilityOfFullOtherPortfolio" finished-at="2020-03-22T13:36:06Z" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visibilityOfFullOtherPortfolio -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.WEINVEST.TestC_Test@64d2d351]" started-at="2020-03-22T13:36:06Z" name="getResult" finished-at="2020-03-22T13:36:06Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=visibilityOfFullOtherPortfolio status=SUCCESS method=TestC_Test.visibilityOfFullOtherPortfolio()[pri:7, instance:com.WEINVEST.TestC_Test@64d2d351] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="changeWindowSize()[pri:9, instance:com.WEINVEST.TestC_Test@64d2d351]" started-at="2020-03-22T13:36:06Z" name="changeWindowSize" finished-at="2020-03-22T13:36:06Z" duration-ms="291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeWindowSize -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.WEINVEST.TestC_Test@64d2d351]" started-at="2020-03-22T13:36:06Z" name="getResult" finished-at="2020-03-22T13:36:06Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=changeWindowSize status=SUCCESS method=TestC_Test.changeWindowSize()[pri:9, instance:com.WEINVEST.TestC_Test@64d2d351] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="visibilityOfSortRecommendation()[pri:11, instance:com.WEINVEST.TestC_Test@64d2d351]" started-at="2020-03-22T13:36:06Z" name="visibilityOfSortRecommendation" finished-at="2020-03-22T13:36:07Z" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visibilityOfSortRecommendation -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.WEINVEST.TestC_Test@64d2d351]" started-at="2020-03-22T13:36:07Z" name="getResult" finished-at="2020-03-22T13:36:07Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=visibilityOfSortRecommendation status=SUCCESS method=TestC_Test.visibilityOfSortRecommendation()[pri:11, instance:com.WEINVEST.TestC_Test@64d2d351] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="visibilityOfSortOtherPortfolio()[pri:13, instance:com.WEINVEST.TestC_Test@64d2d351]" started-at="2020-03-22T13:36:07Z" name="visibilityOfSortOtherPortfolio" finished-at="2020-03-22T13:36:07Z" duration-ms="105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visibilityOfSortOtherPortfolio -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.WEINVEST.TestC_Test@64d2d351]" started-at="2020-03-22T13:36:07Z" name="getResult" finished-at="2020-03-22T13:36:07Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=visibilityOfSortOtherPortfolio status=SUCCESS method=TestC_Test.visibilityOfSortOtherPortfolio()[pri:13, instance:com.WEINVEST.TestC_Test@64d2d351] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown(java.lang.String)[pri:0, instance:com.WEINVEST.TestC_Test@64d2d351]" started-at="2020-03-22T13:36:07Z" name="tearDown" finished-at="2020-03-22T13:36:10Z" duration-ms="2620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test_C]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.WEINVEST.TestC_Test -->
+    </test> <!-- Automation_Test -->
+  </suite> <!-- Testing -->
+</testng-results>
